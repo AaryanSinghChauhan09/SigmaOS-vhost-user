@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-vhost-user"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS vhost-user component - virtualization"
+
+[lib]
+name = "vhost_user"
+path = "src/lib.rs"
